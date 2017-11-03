@@ -60,6 +60,14 @@ userRoutes.route('/profile', {
   },
 });
 
+export const lfgPageRouteName = 'LFG_Page';
+userRoutes.route('/lfg', {
+  name: lfgPageRouteName,
+  action() {
+    BlazeLayout.render('User_Layout', { main: lfgPageRouteName });
+  },
+});
+
 export const filterPageRouteName = 'Filter_Page';
 userRoutes.route('/filter', {
   name: filterPageRouteName,

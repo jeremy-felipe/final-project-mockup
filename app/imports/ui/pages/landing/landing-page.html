@@ -1,31 +1,36 @@
 <template name="Landing_Page">
+  <link rel = "stylesheet"
+        type = "text/css"
+        href = "../../stylesheets/style.css" />
+  <body>
+    <div class="landing-section-1">
+      <div class="ui grid">
 
-  <div class="landing-section-1">
-    <div class="ui grid">
+        <div class="row">
+          <div class="ui left aligned sixteen wide column">
+            {{> Cas_Login }}
+          </div>
 
-      <div class="row">
-        <div class="ui left aligned sixteen wide column">
-          {{> Cas_Login }}
         </div>
-
-      </div>
-      <div class="row">
-        <div class="ui center aligned sixteen wide column">
-          <h1 class="landing-section-1-welcome">GAME BUDDIES</h1>
-          <h3 class="landing-section-1-tagline">LFG? YOU'RE IN THE RIGHT PLACE</h3>
+        <div class="row">
+          <div class="ui center aligned sixteen wide column">
+            <h1 class="landing-section-1-welcome">GAME BUDDIES</h1>
+            <h3 class="landing-section-1-tagline">LFG? YOU'RE IN THE RIGHT PLACE</h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </body>
+
 
   <div class="landing-section-2">
     <div class="ui grid">
       <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/profile.png">
+        <img class="ui centered medium image" src="/images/uhmanoa-seal.jpg">
       </div>
       <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Create your portfolio.</h1>
-        <h1 class="landing-section-header">Specify your interests.</h1>
+        <h1 class="landing-section-header">Connect with other UH Students and Faculty</h1>
+        <h1 class="landing-section-header">Avoid having to coordinate time with strangers on the mainland</h1>
       </div>
     </div>
   </div>
@@ -33,31 +38,71 @@
   <div class="landing-section-3">
     <div class="ui grid">
       <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Publish your portfolio in the BowFolio directory.</h1>
+        <h1 class="landing-section-header">Hapless noob or competetive tryhard?</h1>
+        <h1 class="landing-section-header">Find others like you!</h1>
       </div>
       <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/directory.png">
+        <img class="ui centered medium image" src="/images/B-Gm.png">
       </div>
     </div>
   </div>
 
-  <div class="landing-section-2">
+  <div class="landing-section-4">
     <div class="ui grid">
       <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/filter.png">
+        <img class="ui centered medium image" src="/images/tt_old.png">
       </div>
       <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Find UH community members with similar interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-5">
-    <div class="ui grid">
-      <div class="ui center aligned sixteen wide column">
-        {{> Cas_Login size="large"}}
+        <h1 class="landing-section-header">Prefer systems and games over 15 years old?</h1>
+        <h1 class="landing-section-header">Enjoy tabletop games?</h1>
+        <h1 class="landing-section-header">Your LAN and RPG mates are a click (and less than 44 miles) away!</h1>
       </div>
     </div>
   </div>
 
 </template>
+
+
+<!--
+<div class="landing-section-2">
+  <div class="ui grid">
+    <div class="ui eight wide column">
+      <img class="ui centered medium image" src="/images/profile.png">
+    </div>
+    <div class="ui eight wide middle aligned column">
+      <h1 class="landing-section-header">Create your portfolio.</h1>
+      <h1 class="landing-section-header">Specify your interests.</h1>
+    </div>
+  </div>
+</div>
+
+<div class="landing-section-3">
+  <div class="ui grid">
+    <div class="ui eight wide middle aligned column">
+      <h1 class="landing-section-header">Publish your portfolio in the BowFolio directory.</h1>
+    </div>
+    <div class="ui eight wide column">
+      <img class="ui centered medium image" src="/images/directory.png">
+    </div>
+  </div>
+</div>
+
+<div class="landing-section-2">
+  <div class="ui grid">
+    <div class="ui eight wide column">
+      <img class="ui centered medium image" src="/images/filter.png">
+    </div>
+    <div class="ui eight wide middle aligned column">
+      <h1 class="landing-section-header">Find UH community members with similar interests.</h1>
+    </div>
+  </div>
+</div>
+
+<div class="landing-section-5">
+  <div class="ui grid">
+    <div class="ui center aligned sixteen wide column">
+      {{> Cas_Login size="large"}}
+    </div>
+  </div>
+</div>
+-->

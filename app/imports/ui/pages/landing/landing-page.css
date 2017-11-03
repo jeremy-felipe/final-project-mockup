@@ -1,25 +1,29 @@
+body {
+  background-color: #000000;
+}
+
 .landing-section-1 {
   padding: 10px 10px 30px 10px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .landing-section-2 {
   padding: 20px 10px 20px 10px;
-  background-color: #E5F9E7;
-  color:  #00B5AD;
+  background-color: white;
+  color:  #016936;
 }
 
 .landing-section-3 {
   padding: 20px 10px 30px 30px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
+  background-color: black;
+  color: #016936;
 }
 
-.landing-section-5 {
+.landing-section-4 {
   padding: 20px 10px 20px 10px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
+  background-color: white;
+  color: 016936;
 }
 
 
